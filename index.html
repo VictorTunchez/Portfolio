@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio VictorTunchez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <header>
+        <div class="nav-wrapper">
+            <a href="#" class="logo">
+                <div class="logo-icon">VT</div>
+                &lt;Victor<span>Tunchez</span>/&gt;
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#educacion">Educación</a></li>
+                    <li>
+                        <button class="theme-btn" id="themeBtn">
+                            <i class="bi bi-moon-fill"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="badge">
+                    <i class="bi bi-code-slash"></i> Ingeniero en Sistemas & Desarrollador
+                </span>
+                <h1>
+                    Victor Enrique<br>
+                    <span class="gradient-text">Tunchez Suy</span>
+                </h1>
+                <p>
+                    Estudiante de Ingeniería en Sistemas con formación en Electrónica. 
+                    Especializado en desarrollo de aplicaciones REST, bases de datos y 
+                    Business Intelligence, con experiencia en soporte técnico y proyectos 
+                    de software y hardware.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#proyectos" class="btn btn-primary">
+                        Ver Proyectos <i class="bi bi-arrow-right"></i>
+                    </a>
+                    <a href="https://wa.me/50245705224" target="_blank" class="btn btn-secondary">
+                        <i class="bi bi-whatsapp"></i> Contáctame
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/victortunchez/" target="_blank" class="social-link">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/VictorTunchez" target="_blank" class="social-link">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="mailto:victortunchez2003@gmail.com" class="social-link">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="assets/Perfil.jpg" alt="Victor Tunchez" class="profile-img">
+                    <div class="floating-card">
+                        <i class="bi bi-briefcase-fill"></i>
+                        <div>
+                            <h4>Experiencia</h4>
+                            <p>2+ Años</p>
+                        </div>
+                    </div>
+                    <div class="floating-card">
+                        <i class="bi bi-kanban-fill"></i>
+                        <div>
+                            <h4>Proyectos</h4>
+                            <p>10+ Completados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section fade-in" id="experiencia">
+        <div class="section-header">
+            <h2>Experiencia <span class="gradient-text">Profesional</span></h2>
+            <p>Mi trayectoria en el desarrollo de software y tecnología</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">
+                        <i class="bi bi-calendar3"></i> 2025 - Actualidad
+                    </span>
+                    <h3>Becado Programador</h3>
+                    <h4>GBM • Guatemala</h4>
+                    <ul>
+                        <li>Mantenimiento y actualización de aplicaciones empresariales</li>
+                        <li>Realización de pruebas unitarias y de integración</li>
+                        <li>Elaboración de documentación técnica, de uso y arquitectura</li>
+                        <li>Desarrollo Front-end (Angular, React) y Back-end (Java, C#)</li>
+                        <li>Gestión de proyectos con Azure DevOps</li>
+                        <li>Instalación y configuración de ambientes de desarrollo y producción</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <span class="timeline-date">
+                        <i class="bi bi-calendar3"></i> 2025 • 6 meses
+                    </span>
+                    <h3>Soporte Técnico y Atención al Cliente</h3>
+                    <h4>CyberPlus • Mazatenango, Suchitepéquez</h4>
+                    <ul>
+                        <li>Soporte técnico en configuración y diagnóstico de equipos</li>
+                        <li>Mantenimiento preventivo y correctivo de hardware</li>
+                        <li>Instalación y configuración de sistemas operativos</li>
+                        <li>Optimización de rendimiento de equipos</li>
+                        <li>Atención y resolución de problemas técnicos de clientes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section fade-in" id="habilidades">
+        <div class="section-header">
+            <h2>Habilidades <span class="gradient-text">Técnicas</span></h2>
+            <p>Tecnologías y herramientas con las que trabajo</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="bi bi-filetype-java"></i>
+                    </div>
+                    <h3>Backend</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Spring Boot</span>
+                    <span class="tag">APIs REST</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">ASP.NET</span>
+                    <span class="tag">JWT/Auth0</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="bi bi-palette-fill"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Angular</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="bi bi-database-fill"></i>
+                    </div>
+                    <h3>Bases de Datos</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag">SQL Server</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">Oracle</span>
+                    <span class="tag">JOINs & SP</span>
+                    <span class="tag">CTE & Triggers</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                    <h3>Business Intelligence</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag">ETL (SSIS)</span>
+                    <span class="tag">Power BI</span>
+                    <span class="tag">Modelo Estrella</span>
+                    <span class="tag">OLAP</span>
+                    <span class="tag">Dashboards</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="bi bi-server"></i>
+                    </div>
+                    <h3>Administración & DevOps</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag">Windows Server</span>
+                    <span class="tag">Linux</span>
+                    <span class="tag">Azure DevOps</span>
+                    <span class="tag">Git/GitHub</span>
+                    <span class="tag">Docker</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon">
+                        <i class="bi bi-tools"></i>
+                    </div>
+                    <h3>Herramientas</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="tag">IntelliJ IDEA</span>
+                    <span class="tag">VS Code</span>
+                    <span class="tag">Visual Studio</span>
+                    <span class="tag">Postman</span>
+                    <span class="tag">SSMS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section fade-in" id="proyectos">
+        <div class="section-header">
+            <h2>Proyectos <span class="gradient-text">Destacados</span></h2>
+            <p>Algunos de mis trabajos más recientes</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/pos.png" alt="Sistema de punto de venta">
+                    <div class="project-overlay">
+                        <a href="https://github.com/VictorTunchez/POS-Electrodometicos.git" target="_blank" class="overlay-btn">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="http://el-hogar.westus3.cloudapp.azure.com/login" target="_blank" class="overlay-btn">
+                            <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3><i class="bi bi-shield-lock-fill"></i> Sistema de Punto de Venta</h3>
+                    <p>Aplicación full-stack con autenticación segura implementada con Spring Boot, React, JWT/Auth0, PostgreSQL, BCrypt y protección contra SQL Injection.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">React</span>
+                        <span class="tag">JWT</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/image.png" alt="Smart Robot Car">
+                    <div class="project-overlay">
+                        <a href="https://github.com/VictorTunchez/Traductor-Arduino.git" target="_blank" class="overlay-btn">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3><i class="bi bi-translate"></i> Traductor Arduino</h3>
+                    <p>Sistema que traduce lenguaje simple a código Arduino para controlar carros robot autónomos en laberintos. Incluye análisis léxico/sintáctico en .NET.</p>
+                    <div class="skill-tags">
+                        <span class="tag">C#</span>
+                        <span class="tag">ASP.NET</span>
+                        <span class="tag">Arduino</span>
+                        <span class="tag">IoT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/bd2.png" alt="Sistema BI">
+                    <div class="project-overlay">
+                        <a href="https://github.com/VictorTunchez/Etl-Datawarehouse.git" target="_blank" class="overlay-btn">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3><i class="bi bi-graph-up-arrow"></i> Proyecto de Business Intelligence</h3>
+                    <p>Proyecto de análisis empresarial con procesos ETL, Data Warehouse modelo estrella, cubos OLAP y dashboards interactivos en Power BI.</p>
+                    <div class="skill-tags">
+                        <span class="tag">SSIS</span>
+                        <span class="tag">SQL Server</span>
+                        <span class="tag">Power BI</span>
+                        <span class="tag">OLAP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="github-repo-link">
+            <a href="https://github.com/VictorTunchez?tab=repositories" target="_blank" class="github-text-link">
+                Ver todos los proyectos en GitHub <i class="bi bi-arrow-up-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="section fade-in" id="educacion">
+        <div class="section-header">
+            <h2>Formación <span class="gradient-text">Académica</span></h2>
+            <p>Mi trayectoria educativa</p>
+        </div>
+        <div class="education-grid">
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Licenciatura en Ingeniería en Sistemas y Ciencias de la Computación</h3>
+                    <h4>Universidad Mariano Gálvez</h4>
+                    <p><i class="bi bi-geo-alt-fill"></i> Mazatenango, Suchitepéquez, Guatemala</p>
+                    <p><i class="bi bi-calendar-check-fill"></i> 2022 - Actualidad</p>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="bi bi-award-fill"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Perito en Electrónica y Dispositivos Digitales</h3>
+                    <h4>Instituto de Computación Informática</h4>
+                    <p><i class="bi bi-geo-alt-fill"></i> Mazatenango, Suchitepéquez, Guatemala</p>
+                    <p><i class="bi bi-calendar-check-fill"></i> 2019 - 2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Victor Tunchez</h3>
+                <p>Ingeniero en Sistemas especializado en desarrollo full-stack, Business Intelligence y soluciones que integran software y hardware.</p>
+                <div class="social-links" style="margin-top: 1.5rem;">
+                    <a href="https://www.linkedin.com/in/victortunchez/" target="_blank" class="social-link">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/VictorTunchez" target="_blank" class="social-link">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="mailto:victortunchez2003@gmail.com" class="social-link">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Navegación</h3>
+                <div class="footer-links">
+                    <a href="#inicio"><i class="bi bi-house-fill"></i> Inicio</a>
+                    <a href="#experiencia"><i class="bi bi-briefcase-fill"></i> Experiencia</a>
+                    <a href="#habilidades"><i class="bi bi-code-slash"></i> Habilidades</a>
+                    <a href="#proyectos"><i class="bi bi-kanban-fill"></i> Proyectos</a>
+                    <a href="#educacion"><i class="bi bi-mortarboard-fill"></i> Educación</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Certificaciones</h3>
+                <div class="footer-links">
+                    <a href="https://app.aluracursos.com/degree/certificate/5632a491-11f3-437d-8ed9-02aa7ffb5e17?lang" target="_blank">
+                        <i class="bi bi-patch-check-fill"></i> Java y Spring Framework
+                    </a>
+                    <a href="https://app.aluracursos.com/program/certificate/e84554a3-423e-419b-870b-08f89ef60336?lang" target="_blank">
+                        <i class="bi bi-patch-check-fill"></i> ONE Tech Foundation G8
+                    </a>
+                    <a href="https://app.aluracursos.com/certificate/07742d63-e2cd-4a68-b390-f8aa94bb4045?lang" target="_blank">
+                        <i class="bi bi-patch-check-fill"></i> Git y GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/learning/certificates/3c04d3c5998438b9d84cf4426d81a4dd95ef8859b09c1c0caad168dfcefabd25" target="_blank">
+                        <i class="bi bi-patch-check-fill"></i> Administración de Sistemas
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Victor Tunchez - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
