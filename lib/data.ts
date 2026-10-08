@@ -114,11 +114,12 @@ export const MY_EXPERIENCE = [
         company: 'GBM',
         duration: 'Jul. 2026 - Actualidad',
         description: [
-            'Desarrollo y mantenimiento de aplicaciones empresariales con Java, Spring Boot, Java EE, C# y .NET.',
-            'Levantamiento, análisis y pruebas de aplicaciones, incluyendo validación y resolución de errores.',
-            'Elaboración de documentación técnica, funcional y de arquitectura.',
-            'Participación en la planificación y el seguimiento de sprints bajo Scrum, utilizando Azure DevOps.',
-            'Instalación y configuración de ambientes de desarrollo y producción.',
+            'Desarrollo, mantenimiento y actualización de aplicaciones empresariales en Java y C#: servicios REST, sistemas cliente-servidor, procesos y sistemas legacy.',
+            'Análisis de requerimientos asignados, pruebas unitarias y de integración.',
+            'Corrección de errores (bugs) y migraciones de aplicaciones.',
+            'Elaboración de documentación técnica, de uso y de arquitectura de sistemas.',
+            'Gestión de historias de usuario y tareas en Azure DevOps bajo metodología Scrum.',
+            'Configuración de ambientes de desarrollo, preproducción y producción.',
         ],
     },
     {
@@ -127,11 +128,11 @@ export const MY_EXPERIENCE = [
         duration: 'Nov. 2025 - Jun. 2026',
         description: [
             'Soporte funcional y técnico a usuarios finales de aplicaciones empresariales.',
-            'Análisis, documentación y resolución de incidentes y requerimientos reportados en Mesa de Ayuda.',
-            'Corrección de errores en aplicaciones desarrolladas con Java y C#.',
+            'Resolución y documentación de incidentes y requerimientos de Mesa de Ayuda.',
+            'Apoyo al equipo de desarrollo en el mantenimiento de aplicaciones Java y C#, incluyendo la corrección de errores.',
             'Ejecución de pruebas funcionales y validación de aplicaciones.',
-            'Instalación y configuración de aplicaciones de software en estaciones de trabajo.',
-            'Elaboración de documentación técnica y de uso, y seguimiento de incidencias hasta su resolución.',
+            'Instalación y configuración de productos de software en estaciones de trabajo.',
+            'Elaboración de documentación técnica y de uso de las aplicaciones.',
         ],
     },
     {
@@ -139,9 +140,9 @@ export const MY_EXPERIENCE = [
         company: 'CyberPlus',
         duration: 'Ene. 2025 - Jun. 2025',
         description: [
-            'Soporte técnico general en configuración, mantenimiento y diagnóstico de equipos.',
-            'Mantenimiento preventivo y correctivo de equipos informáticos.',
-            'Instalación y configuración de sistemas operativos.',
+            'Soporte técnico de primer nivel y atención a clientes.',
+            'Diagnóstico de fallas, mantenimiento preventivo y correctivo de equipos de cómputo.',
+            'Instalación de sistemas operativos Windows, controladores y software.',
         ],
     },
 ];
